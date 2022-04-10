@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Air Booking Aop</title>
+    <title> Travel Air Booking Aop</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
 </head>
@@ -14,13 +15,14 @@
 <body>
     <div class="container">
         <div class="booking-form">
+            <h1>Flight Ticket Booking</h1>
             <form>
                 <input type="text" id="name" placeholder="Full Name" required>
                 <input type="email" name="email" id="email" placeholder="Your Email" required><br>
                 <input type="text" id="from" placeholder="Flying From" required>
                 <input type="text" id="to" placeholder="Flying To" required><br>
-                <input type="date" name="startDate" id="startDate" required>
-                <input type="date" name="endDate" id="endDate" required><br>
+                <input type="date" id="startDate" required>
+                <input type="date" id="returnDate" required><br>
                 <select name="class" id="class-type">
                     <option value="Econome">Econome</option>
                     <option value="buisness">buisness</option>
@@ -59,7 +61,7 @@
                     <p class="startDate"></p>
                 </div>
                 <div class="end-date">
-                    <h4>End Date</h4>
+                    <h4>Return Date</h4>
                     <p class="endDate"></p>
                 </div>
                 <div class="class-name">

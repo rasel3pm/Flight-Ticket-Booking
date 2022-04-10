@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+    .booking-form {
+        width: 100%;
+        border: 1px solid rgb(192, 167, 167);
+        padding: 10px;
+        text-align: center;
+    }
+    .checkOut {
+        width: 500px;
+    }
+    .confirm-message {
+        width: 500px;
+        padding-top: 80px;
+    }
+}
