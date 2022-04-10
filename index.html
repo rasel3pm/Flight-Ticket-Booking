@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Air Booking Aop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <div class="container">
+        <div class="booking-form">
+            <form>
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" name="email" id="email" placeholder="Your Email" required><br>
+                <input type="text" id="from" placeholder="Flying From" required>
+                <input type="text" id="to" placeholder="Flying To" required><br>
+                <input type="date" name="startDate" id="startDate" required>
+                <input type="date" name="endDate" id="endDate" required><br>
+                <select name="class" id="class-type">
+                    <option value="Econome">Econome</option>
+                    <option value="buisness">buisness</option>
+                </select>
+                <input type="number" name="" id="adult" placeholder="Adult">
+                <input type="number" name="" id="child" placeholder="Child"><br>
+                <button id="btn">Search Flight</button>
+                <!-- <div class="submit-btn" style="margin-top: 20px;">
+                    <a type="button" id="btn" href="checkout.html">Submit</a>
+                </div> -->
+            </form>
+        </div>
+        <div class="checkOut">
+            <div class="checkout_title">
+                <h1>Confirm Order</h1>
+            </div>
+            <div class="checkOut-information">
+                <div class="name">
+                    <h4>Name</h4>
+                    <p class="client-name"></p>
+                </div>
+                <div class="email">
+                    <h4>Email</h4>
+                    <p class="client-email"></p>
+                </div>
+                <div class="Flying-from">
+                    <h4>Flying-from</h4>
+                    <p class="flying-from"></p>
+                </div>
+                <div class="Flying-to">
+                    <h4>Flying-to</h4>
+                    <p class="flying-to"></p>
+                </div>
+                <div class="start-Date">
+                    <h4>Start Date</h4>
+                    <p class="startDate"></p>
+                </div>
+                <div class="end-date">
+                    <h4>End Date</h4>
+                    <p class="endDate"></p>
+                </div>
+                <div class="class-name">
+                    <h4>Class Name</h4>
+                    <p class="className"></p>
+                </div>
+                <div class="adult">
+                    <h4>Adult</h4>
+                    <p class="adult-person"></p>
+                </div>
+                <div class="child">
+                    <h4>Child</h4>
+                    <p class="child-person"></p>
+                </div>
+                <div class="total-price">
+                    <h2>Total Price</h2>
+                    <p class="totalPrice"></p>
+                </div>
+                <button id="confirm">Confirm Order</button>
+            </div>
+        </div>
+        <div class="confirm-message">
+            <div class="confirm-icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h2>Your order has been placed</h3>
+        </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

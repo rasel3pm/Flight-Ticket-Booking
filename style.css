@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    background-image: url("./bd.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.booking-form {
+    margin: 0px auto;
+    height: 80%;
+    width: 80%;
+    border: 1px solid red;
+    background-color: rgba(228, 167, 145, 0.61);
+    padding: 10px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"] {
+    width: 352px;
+    height: 40px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgba(228, 167, 145, 0.61);
+    font-family: roboto;
+    border: 1px solid white;
+}
+
+select,
+input[type="number"] {
+    width: 234px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgba(228, 167, 145, 0.61);
+    border: 1px solid white;
+    margin: 7px;
+}
+
+#btn,
+#confirm {
+    padding: 10px 30px;
+    margin-top: 40px;
+    cursor: pointer;
+    outline: none;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+
+.checkOut {
+    display: none;
+    margin: 0px auto;
+    width: 700px;
+    padding-top: 40px;
+}
+
+.checkOut-information .name,
+.email,
+.Flying-from,
+.Flying-to,
+.start-Date,
+.end-date,
+.class-name,
+.adult,
+.child {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: antiquewhite;
+    border-bottom: 1px solid rgb(155, 148, 148);
+}
+
+.checkout_title {
+    background-color: rgb(247, 151, 73);
+    padding: 0px 40px;
+}
+
+.confirm-message {
+    height: 400px;
+    width: 600px;
+    background-color: rgba(228, 167, 145, 0.61);
+    margin: 0px auto;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+    color: white;
+    padding-top: 50px;
+}
+
+.confirm-message i {
+    font-size: 100px;
+}
